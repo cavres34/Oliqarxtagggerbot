@@ -281,7 +281,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, " 📢 üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
                       ]
                     )
                   ) 
