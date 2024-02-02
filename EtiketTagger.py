@@ -124,7 +124,7 @@ async def handler(event):
 async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
-                      Button.url('📣 Sohbet grubu  ', f'https://t.me/cavresozel'), #destek grubun linki
+                      Button.url('📣 Sohbet grubu  ', f'https://t.me/affetmezler_sohbet'), #destek grubun linki
                       Button.url('📣 SAHİP ', f'https://t.me/kurucu_sahipp') #sahibin telegram profil linki
                       ],
                       [
