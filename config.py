@@ -37,19 +37,19 @@ import random
 
 #
 # 
-api_id = "21814744" #my.telegram.org/apps adresinden alabilirsiniz 
-api_hash = "024ac6bfea2094f8e5e326d778fdcb54" #my.telegram.org/apps adresinden alabilirsiniz
-bot_token = "6351942473:AAF1gagdscrtwRlqxbOB8tfUb6Da-hS6ISw" #botfatherdan alabilirsiniz
+api_id = "23342734" #my.telegram.org/apps adresinden alabilirsiniz 
+api_hash = "82ff606d717557e233b3bfdf82e0e74e" #my.telegram.org/apps adresinden alabilirsiniz
+bot_token = "6313831029:AAFm8nuyqmKmjLDH3eX_nqpc04kjtb_xXfk" #botfatherdan alabilirsiniz
 
 client = TelegramClient("Samil", api_id, api_hash).start(bot_token=bot_token)
 
-USERNAME = "etiketcavres_bot" #botunuzun kullanıcı adı
-log_qrup = -1001915718534 #log qrupunuzun idsi
+USERNAME = "affetmezlertag_bot" #botunuzun kullanıcı adı
+log_qrup = -1001906045085- #log qrupunuzun idsi
 startmesaj = "💌 arkadaşlarınızı nasıl etiketlemek istersiniz ...\n📚 ben gruplarınız için çavreş tarafından özel geliştirilen bir botum" #start mesajınız
 komutlar = "🇦🇿 Bütün etiketler ;\n\n» /utag   <  mesaj  >\n   - üyeleri 5'li etiketler .\n\n» /tag   <  mesaj  >\n   - üyeleri tek tek etiketler .\n\n» /atag   <  mesaj  >\n   - Adminleri etiketler .\n\n» /etag   <  mesaj  >\n   - üyeleri emoji ile etiketler .\n\n» /stag   <  mesaj  >\n   - üyeleri güzel söz ile etiketler .\n\n» /cancel = >\n   - etiketleme işlemi durdurulur ." #komutların olduğu mesaj
 qrupstart = "• şuan aktif çalışmaktayım  . . .\n\n• üyeleri etiketlemek için grubunuza ekleyin . . ." #aktif olduğunda gruba gelen mesaj
-support = "cavresozel" #destek qrupunuzun kullanıcı adı
-sahib = "rahatsizetmeyiniz34" #sahibinizin kullanıcı adı
+support = "affetmezler_sohbet" #destek qrupunuzun kullanıcı adı
+sahib = "kurucu_sahipp" #sahibinizin kullanıcı adı
 noadmin = "➻ Üzgünüm Ama Yönetici Değilsiniz ." #yönetici olmayanlar için mesaj
 
 #
