@@ -95,9 +95,9 @@ async def start(event):
                       [
                        Button.url('🎉  beni gruba davet et  🎉', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚  komutlar ', f'https://t.me/cavresozel'), #komutların olduğu kanal
-                       Button.url('👨‍💻  Sahip  ', f'https://t.me/Rahatsizetmeyiniz34')], #sahibin telegram profil linki
-                       [Button.url('📝  Kanal  ', f'https://t.me/cavresozel')] #Kanalın destek grubu vs
+                       Button.url('📚  komutlar ', f'https://t.me/affetmezler_sohbet'), #komutların olduğu kanal
+                       Button.url('👨‍💻  Sahip  ', f'https://t.me/kurucu_sahipp')], #sahibin telegram profil linki
+                       [Button.url('📝  Kanal  ', f'https://t.me/affetmezler_sohbet')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
 
@@ -113,9 +113,9 @@ async def handler(event):
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('🎉  beni gruba davet et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚  komutlar ", f'https://t.me/cavresozel'), #komutların olduğu kanal
-                       Button.url('👨‍💻  Sahib  ', f'https://t.me/Rahatsizetmeyiniz34')] #sahibin telegram profil linki
-                       [Button.url('📝  Kanal  ', f'https://t.me/cavresozel')] #Kanalın destek grubu vs
+                      [Button.url("📚  komutlar ", f'https://t.me/affetmezler_sohbet'), #komutların olduğu kanal
+                       Button.url('👨‍💻  Sahib  ', f'https://t.me/kurucu_sahipp')] #sahibin telegram profil linki
+                       [Button.url('📝  Kanal  ', f'https://t.me/affetmezler_sohbet')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
 
@@ -125,7 +125,7 @@ async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
                       Button.url('📣 Sohbet grubu  ', f'https://t.me/cavresozel'), #destek grubun linki
-                      Button.url('📣 SAHİP ', f'https://t.me/{sahib}') #sahibin telegram profil linki
+                      Button.url('📣 SAHİP ', f'https://t.me/kurucu_sahipp') #sahibin telegram profil linki
                       ],
                       [
                       Button.inline("<  𝖦𝖾𝗋𝗂  >", data="start"),
