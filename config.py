@@ -37,9 +37,9 @@ import random
 
 #
 # 
-api_id = "21814744" #my.telegram.org/apps adresinden alabilirsiniz 
-api_hash = "024ac6bfea2094f8e5e326d778fdcb54" #my.telegram.org/apps adresinden alabilirsiniz
-bot_token = "6351942473:AAF1gagdscrtwRlqxbOB8tfUb6Da-hS6ISw" #botfatherdan alabilirsiniz
+api_id = "16571012" #my.telegram.org/apps adresinden alabilirsiniz 
+api_hash = "b4cb958074fb47640ec9bc0940333d13" #my.telegram.org/apps adresinden alabilirsiniz
+bot_token = "6872086911:AAE63tHVwWbsorQ7DV2l2JKXfuO6bPuf1-A" #botfatherdan alabilirsiniz
 
 client = TelegramClient("Samil", api_id, api_hash).start(bot_token=bot_token)
 
@@ -49,7 +49,7 @@ startmesaj = "💌 arkadaşlarınızı nasıl etiketlemek istersiniz ...\n📚 b
 komutlar = "🇦🇿 Bütün etiketler ;\n\n» /utag   <  mesaj  >\n   - üyeleri 5'li etiketler .\n\n» /tag   <  mesaj  >\n   - üyeleri tek tek etiketler .\n\n» /atag   <  mesaj  >\n   - Adminleri etiketler .\n\n» /etag   <  mesaj  >\n   - üyeleri emoji ile etiketler .\n\n» /stag   <  mesaj  >\n   - üyeleri güzel söz ile etiketler .\n\n» /cancel = >\n   - etiketleme işlemi durdurulur ." #komutların olduğu mesaj
 qrupstart = "• şuan aktif çalışmaktayım  . . .\n\n• üyeleri etiketlemek için grubunuza ekleyin . . ." #aktif olduğunda gruba gelen mesaj
 support = "cavresozel" #destek qrupunuzun kullanıcı adı
-sahib = "rahatsizetmeyiniz34" #sahibinizin kullanıcı adı
+sahib = "rahatsizetmeyiniz" #sahibinizin kullanıcı adı
 noadmin = "➻ Üzgünüm Ama Yönetici Değilsiniz ." #yönetici olmayanlar için mesaj
 
 #
