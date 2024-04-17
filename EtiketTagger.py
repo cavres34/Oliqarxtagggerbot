@@ -95,9 +95,9 @@ async def start(event):
                       [
                        Button.url('🎉  beni gruba davet et  🎉', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚  komutlar ', f'https://t.me/sadecebotyeri'), #komutların olduğu kanal
-                       Button.url('👨‍💻  Sahip  ', f'https://t.me/Rahatsizetmeyiniz')], #sahibin telegram profil linki
-                       [Button.url('📝  Kanal  ', f'https://t.me/sadecebotyeri')] #Kanalın destek grubu vs
+                       Button.url('📚  komutlar ', f'https://t.me/Kraliyet_ailesii'), #komutların olduğu kanal
+                       Button.url('👨‍💻  Sahip  ', f'https://t.me/AIDEN34')], #sahibin telegram profil linki
+                       [Button.url('📝  Kanal  ', f'https://t.me/Kraliyet_ailesii')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
 
@@ -113,9 +113,9 @@ async def handler(event):
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('🎉  beni gruba davet et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚  komutlar ", f'https://t.me/sadecebotyeri'), #komutların olduğu kanal
-                       Button.url('👨‍💻  Sahib  ', f'https://t.me/Rahatsizetmeyiniz')] #sahibin telegram profil linki
-                       [Button.url('📝  Kanal  ', f'https://t.me/sadecebotyeri')] #Kanalın destek grubu vs
+                      [Button.url("📚  komutlar ", f'https://t.me/Kraliyet_ailesii'), #komutların olduğu kanal
+                       Button.url('👨‍💻  Sahib  ', f'https://t.me/AIDEN34')] #sahibin telegram profil linki
+                       [Button.url('📝  Kanal  ', f'https://t.me/Kraliyet_ailesii')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
 
@@ -124,8 +124,8 @@ async def handler(event):
 async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
-                      Button.url('📣 Sohbet grubu  ', f'https://t.me/sadecebotyeri'), #destek grubun linki
-                      Button.url('📣 SAHİP ', f'https://t.me/rahatsizetmeyiniz') #sahibin telegram profil linki
+                      Button.url('📣 Sohbet grubu  ', f'https://t.me/Kraliyet_ailesii'), #destek grubun linki
+                      Button.url('📣 SAHİP ', f'https://t.me/AIDEN34') #sahibin telegram profil linki
                       ],
                       [
                       Button.inline("<  𝖦𝖾𝗋𝗂  >", data="start"),
@@ -163,7 +163,7 @@ async def mentionall(event):
     await client.send_message(event.chat_id, " 📢 üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
-                      Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                      Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   ) 
@@ -177,7 +177,7 @@ async def mentionall(event):
         await event.respond("⛔ üyeleri etiketleme işlemi durduruldu. . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   )
@@ -222,7 +222,7 @@ async def mentionalladmin(event):
     await client.send_message(event.chat_id, " 📢 𝖠𝖽𝗆𝗂𝗇 etiket islemi başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   ) 
@@ -236,7 +236,7 @@ async def mentionalladmin(event):
         await event.respond("⛔ 𝖠𝖽𝗆𝗂𝗇 etiket islemi durduruldu . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   )
@@ -281,7 +281,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, " 📢 üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   ) 
@@ -295,7 +295,7 @@ async def tektag(event):
         await event.respond("⛔ üyeleri etiketleme işlemi durduruldu . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   )
@@ -355,7 +355,7 @@ async def etag(event):
     await client.send_message(event.chat_id, " 📢 üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   ) 
@@ -369,7 +369,7 @@ async def etag(event):
         await event.respond("⛔ üyeleri etiketleme işlemi durduruldu . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   )
@@ -464,7 +464,7 @@ async def stag(event):
     await client.send_message(event.chat_id, " 📢 uyeleri etiketleme başladıldı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   ) 
@@ -478,7 +478,7 @@ async def stag(event):
         await event.respond("⛔ üyeleri etiketleme işlemi durduruldu . . .",
                     buttons=(
                       [
-                       Button.url('📝  KANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  KANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   )
@@ -530,7 +530,7 @@ async def rtag(event):
     await client.send_message(event.chat_id, "✅ üyeleri etiketleyin . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   ) 
@@ -544,7 +544,7 @@ async def rtag(event):
         await event.respond("⛔ üyeleri etiketleme işlemi durduruldu ...",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sadecebotyeri')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/Kraliyet_ailesii')
                       ]
                     )
                   )
@@ -574,7 +574,7 @@ async def eros_oku(event):
     second_user_md_mention = f'**[{second_user.first_name}](tg://user?id={second_user.id})**'
     
     response = (
-        f"**Eros'un oxu atıldı.💘**\n**Aşıklar:**\n\n"
+        f"**Eros'un oku atıldı.💘**\n**Aşıklar:**\n\n"
         f"{first_user_md_mention} 💞 {second_user_md_mention} \n`Uyumluluk oranı: %{random.randint(0, 100)}`"
     )
     
@@ -582,6 +582,6 @@ async def eros_oku(event):
 client.run_until_disconnected()
 
 
-print(">> Bot çalışmaktadir merak etme 🚀 @rahatsizetmeyiniz bilgi alabilirsin. <<")
+print(">> Bot çalışmaktadir merak etme 🚀 @AIDEN34 bilgi alabilirsin. <<")
 client.run_until_disconnected()
 run_until_disconnected()
